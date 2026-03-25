@@ -1,0 +1,192 @@
+Debug trace for adaptive mixing without VDF
+config: strategy=adaptive_mixing alpha=0.3 seed=2 epochs=3
+
+slot=  0 proposer= 69 type=H action=propose head=  1 fork_depth=0  partial_randao=0x647ed94e41e5cee666305a999f634a71d0d2447d47f0e0dcbd059e119d3c6563
+slot=  1 proposer= 21 type=H action=propose head=  2 fork_depth=0  partial_randao=0x442f36c7765d790b9906a33829fa047b1066a0b77411111560544312f8a1f883
+slot=  2 proposer= 29 type=H action=propose head=  3 fork_depth=0  partial_randao=0x58ec9cdca329d07fbae3dadceda3473cd755c052a1015eab23a42ba29d28d8c2
+slot=  3 proposer=  7 type=H action=propose head=  4 fork_depth=0  partial_randao=0x4329bbcc27902d1479fecf29684c7bc244504925a92fa45e94d2acb03fcc8379
+slot=  4 proposer= 58 type=H action=propose head=  5 fork_depth=0  partial_randao=0x15e96a821d1f2404e7f43bf4d607eb9ae8a375e270fa212136ab69622d8def90
+slot=  5 proposer= 46 type=H action=propose head=  6 fork_depth=0  partial_randao=0xb40fe56a7e5fb4fcd8975620951a97e61cfbcc9524e296fc10959278fc3807c2
+slot=  6 proposer= 81 type=A action=propose head=  7 fork_depth=0  partial_randao=0x7ef075235ba15967d983c0c53a8e21487ae7d0ba2883d4dda204d346507c6051
+slot=  7 proposer= 76 type=A action=propose head=  8 fork_depth=0  partial_randao=0x53d6cd7bafc078fa2faf4493ee9d5b6b935f85db3dc1da4045300c40a7166d5a
+slot=  8 proposer=  6 type=H action=propose head=  9 fork_depth=0  partial_randao=0xd278b3acd998198a0e57fcfd5e97c209da73a5476c7020c7e2726ff1ad2c3298
+slot=  9 proposer= 50 type=H action=propose head= 10 fork_depth=0  partial_randao=0x9dc0d8e0c68e3559ccd662d25e5e28a8fe7625bce45c21dba7e924d03cf7cb1e
+slot= 10 proposer= 11 type=H action=propose head= 11 fork_depth=0  partial_randao=0x7c0e3f218293fb7fd688f7aeac1724e00785375061a4d8c3b0fbfa5fd968e50d
+slot= 11 proposer= 87 type=A action=propose head= 12 fork_depth=0  partial_randao=0x5cb5d52fd57b4c06cd3fe4eeace7c3fbcf5a2439d763a9654f1050b97e7b4145
+slot= 12 proposer=  4 type=H action=propose head= 13 fork_depth=0  partial_randao=0xf51259c8f9de27446afb4c1578e69be0fa76f5698282cd9b3a116c6b100000a7
+slot= 13 proposer= 68 type=H action=propose head= 14 fork_depth=0  partial_randao=0xf6235891a76aa53592895a6948b85ff784f981e3159c334e52286ec28dfad9d4
+slot= 14 proposer= 71 type=A action=propose head= 15 fork_depth=0  partial_randao=0xb5d5fa0427ea52f993d260e0633f40c410947a6d04354973160f4613016102d3
+slot= 15 proposer= 77 type=A action=propose head= 16 fork_depth=0  partial_randao=0x89d622f1d3fbe5dacd48022cd8670197b1052c5d39b25257dfc6a854ce572228
+slot= 16 proposer= 22 type=H action=propose head= 17 fork_depth=0  partial_randao=0xe424cdb76484e8e47a920f4b30bd3e0dd965a1a7e0f33ebe155c1e8c9616f4d7
+slot= 17 proposer= 73 type=A action=propose head= 18 fork_depth=0  partial_randao=0x7440aaf49351e57b5d86dc9622e58b166bff72092fa280998984057278ea1de8
+slot= 18 proposer= 39 type=H action=propose head= 19 fork_depth=0  partial_randao=0x8aa2dd21d15e68fd2f55705e2370cbbb9d3961e051749c70df94a1befc15cfda
+slot= 19 proposer= 83 type=A action=propose head= 20 fork_depth=0  partial_randao=0x3cba614678eba9e87ee7c3f53e934f94c0fca38b9c6ebdaa86e95dd415f5f341
+slot= 20 proposer= 82 type=A action=skip    head= 20 fork_depth=0  partial_randao=0x3cba614678eba9e87ee7c3f53e934f94c0fca38b9c6ebdaa86e95dd415f5f341
+slot= 21 proposer= 40 type=H action=propose head= 21 fork_depth=0  partial_randao=0x74fa4836d7330e8a815717ad7057bb5092b6d83036b0ac6eb5b79aff3177504a
+slot= 22 proposer= 25 type=H action=propose head= 22 fork_depth=0  partial_randao=0x3e618c07104a82a414464fd9af085d824a7c55f412b8910887a1302b11242aa8
+slot= 23 proposer= 80 type=A action=skip    head= 22 fork_depth=0  partial_randao=0x3e618c07104a82a414464fd9af085d824a7c55f412b8910887a1302b11242aa8
+slot= 24 proposer= 41 type=H action=propose head= 23 fork_depth=0  partial_randao=0xab6e1e3ca8fa8fb2b77de1dc186e577d0f49a44de5992dbb2b4c69b2adcd675d
+slot= 25 proposer= 84 type=A action=propose head= 24 fork_depth=0  partial_randao=0x027bc6e4ae0da187c385f7a8ff83d9b8e934d0d315d7327c23b7bda5fb2a6733
+slot= 26 proposer= 57 type=H action=propose head= 25 fork_depth=0  partial_randao=0x2bfaaf7a445d4d755652936d4a2c1710866199c9305e780acfc53de9531cca10
+slot= 27 proposer= 28 type=H action=propose head= 26 fork_depth=0  partial_randao=0xed95039e620d08abc8fe85d54c6effe8651f78e7c1b835bc34e6e45bb64b7d5f
+slot= 28 proposer= 45 type=H action=propose head= 27 fork_depth=0  partial_randao=0xc66d35c4f274e5a3996d2a04347d2b67021a4ad077832899c6995bfd69060289
+slot= 29 proposer= 30 type=H action=propose head= 28 fork_depth=0  partial_randao=0x58709e7c9c753f20549200a4f4bf40db4e7edd56e4ea3b57492ae354c52d7bd0
+slot= 30 proposer= 85 type=A action=skip    head= 28 fork_depth=0  partial_randao=0x58709e7c9c753f20549200a4f4bf40db4e7edd56e4ea3b57492ae354c52d7bd0
+slot= 31 proposer= 43 type=H action=propose head= 29 fork_depth=0  partial_randao=0x9e1cff7b6c08c792766aac34d65271e50e38391ed0b4f3581109338b5c871f3c
+slot= 32 proposer= 84 type=A action=propose head= 30 fork_depth=0  partial_randao=0xa7e02ac338870ae5fb12519d7f60843878ca25ac8e79c177fe0517b8309d99e2
+slot= 33 proposer=  5 type=H action=propose head= 31 fork_depth=0  partial_randao=0x3682e58c2edc783e3d5f7da6772f4b6b83f3cbb90fb768cb009f01cd232cdebf
+slot= 34 proposer= 35 type=H action=propose head= 32 fork_depth=0  partial_randao=0x04c3cfce9787c73dd9de428cc453baca8b561b67d5f52380fb2ae73ee737ae69
+slot= 35 proposer= 40 type=H action=propose head= 33 fork_depth=0  partial_randao=0x4b42022aca0fcdda4e870022831915c41d8530e858d4614a6b61545d15bf1e30
+slot= 36 proposer=  9 type=H action=propose head= 34 fork_depth=0  partial_randao=0x5c1e881f21f8c461fd465f86ae80f5182bca642e6eb9aff9aa1d6254ed9efe4e
+slot= 37 proposer= 41 type=H action=propose head= 35 fork_depth=0  partial_randao=0x76693f696ec15f4aea05dfe5db02730d6b1cde006898e190d72f70124f335fe6
+slot= 38 proposer= 89 type=A action=propose head= 36 fork_depth=0  partial_randao=0x66fafc02bb2d3481cb4457b55ecfd9f0600812a83dd852a3f159044d1a45aa25
+slot= 39 proposer= 27 type=H action=propose head= 37 fork_depth=0  partial_randao=0x55b74f37ad5a1cb51ed34279d406006329310c0c46900506fa5853497518fa09
+slot= 40 proposer= 16 type=H action=propose head= 38 fork_depth=0  partial_randao=0x09a4bd47b21361872fb1ce4c331e884504f50e96a56414a1915b8a372912c463
+slot= 41 proposer= 71 type=A action=propose head= 39 fork_depth=0  partial_randao=0xdd839f09ca58d51b51704aa3a3836a2e68af957a7be89454ecb8ad319c401072
+slot= 42 proposer= 65 type=H action=propose head= 40 fork_depth=0  partial_randao=0xdca951f9fd29a4dbc4fbd8fdbf1126720c9726a50fa9ee3244e6927095fa0770
+slot= 43 proposer= 48 type=H action=propose head= 41 fork_depth=0  partial_randao=0x2468ec606fcffe0e0226f6e69f1069c67d44729dbde4d6d20f896b155606c973
+slot= 44 proposer= 12 type=H action=propose head= 42 fork_depth=0  partial_randao=0x8a48d4885507cfe8049adabbe71d536358bd2990ac91357e7f00425322959eaf
+slot= 45 proposer= 70 type=A action=propose head= 43 fork_depth=0  partial_randao=0x95647caa4a92429fe1b2c53a25c5a052631a3eab5c077676020d7f3e37ff83d4
+slot= 46 proposer= 78 type=A action=propose head= 44 fork_depth=0  partial_randao=0xba7d3f1bcfb00a14ea45c969834c8b9263c25a2a266bb3b6ec8f2fea7946cda2
+slot= 47 proposer= 13 type=H action=propose head= 45 fork_depth=0  partial_randao=0x4c69b08ead6fda5896e8ffe3467feccbf1d9682c4372dffde4bc6502b4c784af
+slot= 48 proposer= 31 type=H action=propose head= 46 fork_depth=0  partial_randao=0xcdd2b31d02e95175ed1e74e18f15d8e7fa094ab79c7417770a6fa41350840f05
+slot= 49 proposer= 28 type=H action=propose head= 47 fork_depth=0  partial_randao=0xd829e6ce0860a29f47a0ceac04641f5b897b1741b36bfd2c3d40b8f5071ed039
+slot= 50 proposer= 45 type=H action=propose head= 48 fork_depth=0  partial_randao=0x447f696def4e4647d579745654f739ee582fb3e130c82d7eb86f3b9454cd5d16
+slot= 51 proposer= 29 type=H action=propose head= 49 fork_depth=0  partial_randao=0x01f68c21f853f86ad2f384e3c19177ddc3e9a0458604f6c913368e7e2a13041a
+slot= 52 proposer= 91 type=A action=skip    head= 49 fork_depth=0  partial_randao=0x01f68c21f853f86ad2f384e3c19177ddc3e9a0458604f6c913368e7e2a13041a
+slot= 53 proposer= 10 type=H action=propose head= 50 fork_depth=0  partial_randao=0xf512596903a561cb881a554ec98f144fc947bb03c6b289432ba8358125975503
+slot= 54 proposer= 51 type=H action=propose head= 51 fork_depth=0  partial_randao=0xb03d577f78935117f672e9018bc100c1c88db37bc5bbdd006bf98de728581383
+slot= 55 proposer= 74 type=A action=propose head= 52 fork_depth=0  partial_randao=0xe5d3a88521cc76c515fe6d703a66713a4b58106fd162be5193d21d61f4d173cc
+slot= 56 proposer= 88 type=A action=propose head= 53 fork_depth=0  partial_randao=0x80e45c9faa3fa48a742cc970e7b25c90e5188a31e2c0e9bd542fcba4553d8559
+slot= 57 proposer= 57 type=H action=propose head= 54 fork_depth=0  partial_randao=0xcb820223141e5ea55e04ab3b5a51719aab17d0316fb5d91c9b11002e797011a1
+slot= 58 proposer= 46 type=H action=propose head= 55 fork_depth=0  partial_randao=0xefd9a96581663ea7a8ce4109fefa9885d6841ce3391a487b6f407aa31bfcdd36
+slot= 59 proposer= 53 type=H action=propose head= 56 fork_depth=0  partial_randao=0xadaef3cfc924a95347716487abfdbf3a52131d6a019cce8a2886b4c81450c786
+slot= 60 proposer=  8 type=H action=propose head= 57 fork_depth=0  partial_randao=0x7523c68b7a70439106bd0ba747017eee5435d1b956e7d8cfe3789bb1c609b480
+slot= 61 proposer=  0 type=H action=propose head= 58 fork_depth=0  partial_randao=0xed102eef7e65f674490451b90a159f787fd0d4f5888f58fede09f2c876e7896d
+slot= 62 proposer= 66 type=H action=propose head= 59 fork_depth=0  partial_randao=0x2cd7cc78863cc369f795eb1ed32b926cf221e961ce4abc5c6c743e94b3c231e3
+slot= 63 proposer= 20 type=H action=propose head= 60 fork_depth=0  partial_randao=0x94fdc58cdcad9fe10c8375753a4ae8a2be6d301c4cfa6e5ef39a7d228c0ef547
+slot= 64 proposer= 90 type=A action=propose head= 61 fork_depth=0  partial_randao=0x85acd735752527d19d0db7e5bdd058f7876c414b5da53c97759253734bdb2f0d
+slot= 65 proposer= 96 type=A action=propose head= 62 fork_depth=0  partial_randao=0x8e721cc4b7a1b769d8c365089e474344a08be4f4989452f580f58d8944a0ca03
+slot= 66 proposer= 49 type=H action=propose head= 63 fork_depth=0  partial_randao=0x84dc116d8187c4f60cc8700715b91643cb27f7547e36a1fb449bc50b71662140
+slot= 67 proposer= 77 type=A action=propose head= 64 fork_depth=0  partial_randao=0x4b2935f17e83620390424f6354d091f2bc7de0158edb1464c61c8da9959e92c8
+slot= 68 proposer= 72 type=A action=propose head= 65 fork_depth=0  partial_randao=0x6c8386d4e2681cc3ee868cee5ba06aeebeeeb3cf6f0e7119669cf3efe2dd9295
+slot= 69 proposer= 35 type=H action=propose head= 66 fork_depth=0  partial_randao=0x1b9d165614d492852455dc1a07b5e49f54bf68c4fb2bf29e264e9635de3b5f04
+slot= 70 proposer= 78 type=A action=propose head= 67 fork_depth=0  partial_randao=0x2d33456203a331651b0c720600e703d711e567afdf3dd01cd229cfac2105e5e3
+slot= 71 proposer= 46 type=H action=propose head= 68 fork_depth=0  partial_randao=0x26d2f7c908dcc313131e1e7c05a662c6652489f4f22fcba23747bbdbac01bcc2
+slot= 72 proposer= 31 type=H action=propose head= 69 fork_depth=0  partial_randao=0xb9bf624d535281109a02140236097ec9303a785b4458fed560ee70d3d5668c01
+slot= 73 proposer= 36 type=H action=propose head= 70 fork_depth=0  partial_randao=0x24b5a94c919e644883a46d269ead56d6eb8b7052ec88ce20a9b3fc0e1f54e7b9
+slot= 74 proposer= 54 type=H action=propose head= 71 fork_depth=0  partial_randao=0xe0ad00de42edbe024c1bef63ad1c06af873afbf46a313663fa3727c6fa88dac9
+slot= 75 proposer= 56 type=H action=propose head= 72 fork_depth=0  partial_randao=0xee0d301e8686a13f49db29d36171382dc69a312d79d78154b96d22a154a6dc61
+slot= 76 proposer=  2 type=H action=propose head= 73 fork_depth=0  partial_randao=0xa0d1d5201b6307d8ca2ad147f3c308028db0256a03443414b4e1e1e1b139ff3e
+slot= 77 proposer= 34 type=H action=propose head= 74 fork_depth=0  partial_randao=0xd870c3c0a01b48911ba10692edea1a2b2bfffb1de8528c99624934a552cc3600
+slot= 78 proposer= 50 type=H action=propose head= 75 fork_depth=0  partial_randao=0x8d895d2f25d479bee4f42e37cb84e4a80f0b1a471dc2012ceb4b01376b0f3f77
+slot= 79 proposer= 84 type=A action=propose head= 76 fork_depth=0  partial_randao=0xa05e913b44eaab07ce0edaecba001314be19b167ab5a74053a1d59ead44bbda5
+slot= 80 proposer= 98 type=A action=propose head= 77 fork_depth=0  partial_randao=0xf0c1fa7a3e06547c8c488e8ea6a8e142f49a0e7dfd5ccad3eff5467c1314b294
+slot= 81 proposer= 26 type=H action=propose head= 78 fork_depth=0  partial_randao=0xc29ed8cd75ec87d9c31653f3115596e9f464d032e2638bf99e40d9424ef45775
+slot= 82 proposer= 39 type=H action=propose head= 79 fork_depth=0  partial_randao=0x67240ca1880a49f9892169328389665c4fff8fe0f848895359ae2f780b127c25
+slot= 83 proposer= 93 type=A action=propose head= 80 fork_depth=0  partial_randao=0xf53cd7d94b2c5e2526b5664c2e801cf88792325f4d15b1ac7da1cdbe36762384
+slot= 84 proposer= 17 type=H action=propose head= 81 fork_depth=0  partial_randao=0x2bbad35a5881ba936e19a48f802997abcde05add9040d69e7a40989b3a9f00cb
+slot= 85 proposer= 91 type=A action=skip    head= 81 fork_depth=0  partial_randao=0x2bbad35a5881ba936e19a48f802997abcde05add9040d69e7a40989b3a9f00cb
+slot= 86 proposer=  3 type=H action=propose head= 82 fork_depth=0  partial_randao=0x1625105eb95dc4d1e22d81cef508d4da763a13f6e1d27ace34b02bfb1875494b
+slot= 87 proposer= 16 type=H action=propose head= 83 fork_depth=0  partial_randao=0x471758e05d11bea0d7d58ceeac101fdc70164e016fdd8d9bc5e6e5e37d81910d
+slot= 88 proposer= 86 type=A action=propose head= 84 fork_depth=0  partial_randao=0x6c1a3704ef3eab7dd72f595504597ca96bdff971cac1ded4554eff22fb155e75
+slot= 89 proposer= 45 type=H action=propose head= 85 fork_depth=0  partial_randao=0xe9b407b7895ffba67ecff8ef67378e045e2157e7964125616af31ec820486a00
+slot= 90 proposer= 99 type=A action=propose head= 86 fork_depth=0  partial_randao=0x8acfb9126bd7150132a15b228a26f04a06f4e20c8556569d1544010add22d528
+slot= 91 proposer= 82 type=A action=propose head= 87 fork_depth=0  partial_randao=0x4dc6c30871a85febdde4ef884154773a591a1af1b8174b73600269c04d419155
+slot= 92 proposer= 42 type=H action=propose head= 88 fork_depth=0  partial_randao=0x1b759cadf3d3497469cdfb3fe7006144b97ac84505d085981994138ecaa08ac4
+slot= 93 proposer= 20 type=H action=propose head= 89 fork_depth=0  partial_randao=0x1679bc9821236db9e955e53bdc6d2e493c13db63ec26d320ca89016082cd5bc6
+slot= 94 proposer= 89 type=A action=propose head= 90 fork_depth=0  partial_randao=0x4341082a8e63b3efff74b197e4a1e875fb7cd76fb6c9ef5bd5669d3a96df0e89
+slot= 95 proposer=  5 type=H action=propose head= 91 fork_depth=0  partial_randao=0xd3a938ee0afa6568cad25a7d6602e176d4ca88fe924b63e110d92c7bd82ef59e
+
+ASCII tree snapshot:
+* block=  1 slot= 0 parent=  0 proposer= 69
+* block=  2 slot= 1 parent=  1 proposer= 21
+* block=  3 slot= 2 parent=  2 proposer= 29
+* block=  4 slot= 3 parent=  3 proposer=  7
+* block=  5 slot= 4 parent=  4 proposer= 58
+* block=  6 slot= 5 parent=  5 proposer= 46
+* block=  7 slot= 6 parent=  6 proposer= 81
+* block=  8 slot= 7 parent=  7 proposer= 76
+* block=  9 slot= 8 parent=  8 proposer=  6
+* block= 10 slot= 9 parent=  9 proposer= 50
+* block= 11 slot=10 parent= 10 proposer= 11
+* block= 12 slot=11 parent= 11 proposer= 87
+* block= 13 slot=12 parent= 12 proposer=  4
+* block= 14 slot=13 parent= 13 proposer= 68
+* block= 15 slot=14 parent= 14 proposer= 71
+* block= 16 slot=15 parent= 15 proposer= 77
+* block= 17 slot=16 parent= 16 proposer= 22
+* block= 18 slot=17 parent= 17 proposer= 73
+* block= 19 slot=18 parent= 18 proposer= 39
+* block= 20 slot=19 parent= 19 proposer= 83
+* block= 21 slot=21 parent= 20 proposer= 40
+* block= 22 slot=22 parent= 21 proposer= 25
+* block= 23 slot=24 parent= 22 proposer= 41
+* block= 24 slot=25 parent= 23 proposer= 84
+* block= 25 slot=26 parent= 24 proposer= 57
+* block= 26 slot=27 parent= 25 proposer= 28
+* block= 27 slot=28 parent= 26 proposer= 45
+* block= 28 slot=29 parent= 27 proposer= 30
+* block= 29 slot=31 parent= 28 proposer= 43
+* block= 30 slot=32 parent= 29 proposer= 84
+* block= 31 slot=33 parent= 30 proposer=  5
+* block= 32 slot=34 parent= 31 proposer= 35
+* block= 33 slot=35 parent= 32 proposer= 40
+* block= 34 slot=36 parent= 33 proposer=  9
+* block= 35 slot=37 parent= 34 proposer= 41
+* block= 36 slot=38 parent= 35 proposer= 89
+* block= 37 slot=39 parent= 36 proposer= 27
+* block= 38 slot=40 parent= 37 proposer= 16
+* block= 39 slot=41 parent= 38 proposer= 71
+* block= 40 slot=42 parent= 39 proposer= 65
+* block= 41 slot=43 parent= 40 proposer= 48
+* block= 42 slot=44 parent= 41 proposer= 12
+* block= 43 slot=45 parent= 42 proposer= 70
+* block= 44 slot=46 parent= 43 proposer= 78
+* block= 45 slot=47 parent= 44 proposer= 13
+* block= 46 slot=48 parent= 45 proposer= 31
+* block= 47 slot=49 parent= 46 proposer= 28
+* block= 48 slot=50 parent= 47 proposer= 45
+* block= 49 slot=51 parent= 48 proposer= 29
+* block= 50 slot=53 parent= 49 proposer= 10
+* block= 51 slot=54 parent= 50 proposer= 51
+* block= 52 slot=55 parent= 51 proposer= 74
+* block= 53 slot=56 parent= 52 proposer= 88
+* block= 54 slot=57 parent= 53 proposer= 57
+* block= 55 slot=58 parent= 54 proposer= 46
+* block= 56 slot=59 parent= 55 proposer= 53
+* block= 57 slot=60 parent= 56 proposer=  8
+* block= 58 slot=61 parent= 57 proposer=  0
+* block= 59 slot=62 parent= 58 proposer= 66
+* block= 60 slot=63 parent= 59 proposer= 20
+* block= 61 slot=64 parent= 60 proposer= 90
+* block= 62 slot=65 parent= 61 proposer= 96
+* block= 63 slot=66 parent= 62 proposer= 49
+* block= 64 slot=67 parent= 63 proposer= 77
+* block= 65 slot=68 parent= 64 proposer= 72
+* block= 66 slot=69 parent= 65 proposer= 35
+* block= 67 slot=70 parent= 66 proposer= 78
+* block= 68 slot=71 parent= 67 proposer= 46
+* block= 69 slot=72 parent= 68 proposer= 31
+* block= 70 slot=73 parent= 69 proposer= 36
+* block= 71 slot=74 parent= 70 proposer= 54
+* block= 72 slot=75 parent= 71 proposer= 56
+* block= 73 slot=76 parent= 72 proposer=  2
+* block= 74 slot=77 parent= 73 proposer= 34
+* block= 75 slot=78 parent= 74 proposer= 50
+* block= 76 slot=79 parent= 75 proposer= 84
+* block= 77 slot=80 parent= 76 proposer= 98
+* block= 78 slot=81 parent= 77 proposer= 26
+* block= 79 slot=82 parent= 78 proposer= 39
+* block= 80 slot=83 parent= 79 proposer= 93
+* block= 81 slot=84 parent= 80 proposer= 17
+* block= 82 slot=86 parent= 81 proposer=  3
+* block= 83 slot=87 parent= 82 proposer= 16
+* block= 84 slot=88 parent= 83 proposer= 86
+* block= 85 slot=89 parent= 84 proposer= 45
+* block= 86 slot=90 parent= 85 proposer= 99
+* block= 87 slot=91 parent= 86 proposer= 82
+* block= 88 slot=92 parent= 87 proposer= 42
+* block= 89 slot=93 parent= 88 proposer= 20
+* block= 90 slot=94 parent= 89 proposer= 89
+* block= 91 slot=95 parent= 90 proposer=  5
