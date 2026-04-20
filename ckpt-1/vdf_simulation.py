@@ -99,7 +99,7 @@ def min_fork(u: float, eta: int, p_boost: float = P_BOOST) -> int:
     return max(need, 1)
 
 
-qdef ex_ante(u: float, a1: int, h: int, a2: int, remain: int) -> List[Tuple[int, int]]:
+def ex_ante(u: float, a1: int, h: int, a2: int, remain: int) -> List[Tuple[int, int]]:
     """
     Approximation of Appendix Algorithm 1.
     Returns (x, n): sacrifice x from the A-run after H-cluster and n private A-slots needed.
