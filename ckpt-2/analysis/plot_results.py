@@ -148,7 +148,7 @@ def plot_vdf_effect(df: pd.DataFrame) -> None:
                 subset["adversarial_reward"],
                 marker="o" if strategy_name == "adaptive_mixing" else "s",
                 linestyle="-" if strategy_name == "adaptive_mixing" else "--",
-                color=colors[alpha],
+                # color=colors[alpha],
                 label=f"{_strategy_label(strategy_name)} | alpha={alpha:.1f}",
             )
 
